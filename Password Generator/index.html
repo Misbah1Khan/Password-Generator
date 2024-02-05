@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">
+            <h1>Need a password? Try the strong <br>Password Generator.</h1>
+            <p>Generate secure, random passwords to stay safe online.</p>
+        </div>
+
+        <div class="gen">
+
+            <input type="text" id="password" readonly>
+        </div>
+
+
+        <div class="field">
+            <label for="Pass-Len">Password Length</label>
+            <input type="number" value="8" min="8" max="30" id="passLen">
+            <br>
+            <label for="upper">UpperCase Characters</label>
+            <input type="checkbox" id="UpperCase" checked>
+            <br>
+            <label for="lower">LowerCase Characters</label>
+            <input type="checkbox" id="LowerCase" checked>
+            <br>
+            <label for="number">Number</label>
+            <input type="checkbox" id="Number" checked>
+            <br>
+            <label for="special">Special Characters</label>
+            <input type="checkbox" id="Special" checked>
+
+        </div>
+
+        <div class="btn">
+            <button class="genrate" onclick="passwordGenerator()">Generate Password</button>
+            <button class="copy" onclick="copyPass()">Copy Password</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

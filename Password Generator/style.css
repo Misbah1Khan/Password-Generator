@@ -1,0 +1,87 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main{
+  background-color: #a19c9c;
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  border: none;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.gen {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.field {
+  text-align: center;
+}
+
+label {
+  font-size: 1em;
+}
+
+input[type="number"],
+input[type="checkbox"] {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button.copy {
+  background-color: #1f1f1f;
+  color: white;
+  border: none;
+}
+
+button.genrate {
+  background-color: #1f1f1f;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
